@@ -431,6 +431,18 @@
     [
       "bd5ba275-de8f-4429-9f8f-11cc5e954dd0",
       ""
+    ],
+    [
+      "8469418f-40e4-443c-81c1-2bee2370abe2",
+      "CAN bus0"
+    ],
+    [
+      "55e5890b-4a4e-43d7-97c7-6276168b6880",
+      "CAN bus1"
+    ],
+    [
+      "99e884f1-6af0-42b0-8406-f20b17fb152e",
+      "Standalone Can BUS"
     ]
   ],
   "text_variables": {}

@@ -1,3 +1,13 @@
 (sym_lib_table
   (lib (name "pwr_BeagleBone")(type "KiCad")(uri "${KIPRJMOD}/pwr_BeagleBone.kicad_sym")(options "")(descr ""))
+  (lib (name "Capacitors_Smd0603")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Capacitors/Smd_0603/Capacitors_Smd0603.kicad_sym")(options "")(descr ""))
+  (lib (name "power")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Power_Signs/power.kicad_sym")(options "")(descr ""))
+  (lib (name "Diodes")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Diodes/Diodes.kicad_sym")(options "")(descr ""))
+  (lib (name "Discrete_Connectors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Connectors/Discrete_Connectors/Discrete_Connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistors_Smd0603")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Resistors/Smd_0603/Resistors_Smd0603.kicad_sym")(options "")(descr ""))
+  (lib (name "Communication_Interfaces")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Communication_Interfaces/Communication_Interfaces.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistors_Smd0805")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Resistors/Smd_0805/Resistors_Smd0805.kicad_sym")(options "")(descr ""))
+  (lib (name "Goldpin_2_54mm")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Goldpins/Goldpin_2.54mm/Goldpin_2_54mm.kicad_sym")(options "")(descr ""))
+  (lib (name "Ptc_Smd_Fuses")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Fuses/Smd_Ptc_Fuses/Ptc_Smd_Fuses.kicad_sym")(options "")(descr ""))
+  (lib (name "Resonators")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Resonators/Resonators.kicad_sym")(options "")(descr ""))
 )

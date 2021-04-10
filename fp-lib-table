@@ -1,3 +1,12 @@
 (fp_lib_table
-  (lib (name Socket_BeagleBone_Black)(type KiCad)(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name "Socket_BeagleBone_Black")(type "KiCad")(uri "$(KIPRJMOD)/Socket_BeagleBone_Black.pretty")(options "")(descr ""))
+  (lib (name "Capacitors_Smd_0603")(type "KiCad")(uri "${KISYS3DMOD}/Capacitors/Smd_0603/Capacitors_Smd_0603.pretty")(options "")(descr ""))
+  (lib (name "Discrete_Connectors")(type "KiCad")(uri "${KISYS3DMOD}/Connectors/Discrete_Connectors/Discrete_Connectors.pretty")(options "")(descr ""))
+  (lib (name "Diodes")(type "KiCad")(uri "${KISYS3DMOD}/Diodes/Diodes.pretty")(options "")(descr ""))
+  (lib (name "Resistor_Smd_0603")(type "KiCad")(uri "${KISYS3DMOD}/Resistors/Smd_0603/Resistor_Smd_0603.pretty")(options "")(descr ""))
+  (lib (name "Resistor_Smd_0805")(type "KiCad")(uri "${KISYS3DMOD}/Resistors/Smd_0805/Resistor_Smd_0805.pretty")(options "")(descr ""))
+  (lib (name "Communication_Interfaces")(type "KiCad")(uri "${KISYS3DMOD}/Communication_Interfaces/Communication_Interfaces.pretty")(options "")(descr ""))
+  (lib (name "Goldpin")(type "KiCad")(uri "${KISYS3DMOD}/Goldpin/Discrete_Goldpin/Goldpin.pretty")(options "")(descr ""))
+  (lib (name "Smd_Ptc_Fuses")(type "KiCad")(uri "${KISYS3DMOD}/Fuses/Smd_Ptc_Fuses/Smd_Ptc_Fuses.pretty")(options "")(descr ""))
+  (lib (name "Resonators")(type "KiCad")(uri "${KISYS3DMOD}/Resonators/Resonators.pretty")(options "")(descr ""))
 )

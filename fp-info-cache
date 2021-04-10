@@ -1,4 +1,4 @@
-703051715242271
+748308430746629
 Capacitors_Smd_0603
 1.2pF_GRM0335C1H1R2WA01D
 muRata SMD SM0603
@@ -1763,6 +1763,41 @@ pin header
 0
 26
 26
+Microswitches
+434153017835
+
+
+0
+4
+4
+Microswitches
+DTSM-31N_SMD
+DTSM-31N
+Microswitch
+0
+2
+2
+NTC_Thermistors
+B57230V2103F260
+
+capacitor 0402
+0
+2
+2
+NTC_Thermistors
+NCP21WB473J03RA
+
+Resistor
+0
+2
+2
+NTC_Thermistors
+NTCS0603E3103FMT
+
+
+0
+2
+2
 Resistor_Smd_0603
 0R05_0603
 
@@ -3002,6 +3037,153 @@ Resistor
 0
 2
 2
+Resonators
+7A-24.000MAAJ-T_24MHz
+
+
+0
+2
+2
+Resonators
+10MHz_CM309S_Rect_4pins
+10MHz crystal
+Resonator
+0
+4
+4
+Resonators
+20MHz_CFPS-39_4Pins_SMD
+CFPS-39
+Quarts SMD
+0
+4
+4
+Resonators
+20MHz_CFPS-72_4Pins_SMD
+CFPS-72
+Quarts SMD
+0
+4
+4
+Resonators
+20MHz_CFPS-72_4Pins_SMD_Alternative
+CFPS-72
+Quarts SMD
+0
+4
+4
+Resonators
+24MHz-TSX-3225
+CFPS-72
+Quarts SMD
+0
+4
+4
+Resonators
+26MHz-TSX-3225
+CFPS-72
+Quarts SMD
+0
+4
+4
+Resonators
+32_768KHz_CFPX_217
+CFPX_217
+Quarts SMD
+0
+2
+2
+Resonators
+520-2016MV-250-CNT
+25MHz
+Quarts SMD
+0
+4
+4
+Resonators
+ABM3-25.000MHZ-D2Y-T
+
+
+0
+2
+2
+Resonators
+ABM3AIG-8.000MHZ-8-1R-T
+
+
+0
+2
+2
+Resonators
+ABM3AIG-12.000MHZ-8-1R-T
+
+
+0
+2
+2
+Resonators
+ABM8-20.000MHZ-B2_SMD
+ABM8
+Quarts SMD
+0
+4
+4
+Resonators
+ABM8G-106-12.000MHZ-T
+
+
+0
+4
+4
+Resonators
+ABM8W-38.4000MHZ-4-B1U-T3
+38.4MHz ABM
+Quartz SMD
+0
+4
+4
+Resonators
+CST4.00MGW
+16MHz Resonator 49US
+Quartz, Resonator
+0
+3
+3
+Resonators
+LFXTAL009678
+CFPX_217
+Quarts SMD
+0
+2
+2
+Resonators
+Resonator_16MHz_49US
+16MHz Resonator 49US
+Quartz, Resonator
+0
+2
+2
+Resonators
+Resonator_32MHz_49US
+16MHz Resonator 49US
+Quartz, Resonator
+0
+2
+2
+Resonators
+Resonator_32_768kHz_discrete
+32.768kHz
+Resonator
+0
+2
+2
+Resonators
+TSX-3225
+CFPS-72
+Quarts SMD
+0
+4
+4
 Smd_Ptc_Fuses
 ECE_PTC_100mA_60V_SM1206
 PTC Fuse
@@ -3044,3 +3226,17 @@ pin header
 0
 46
 46
+Temperature_Sensors
+DS18B20U_MSOP-8_3x3mm_P0.65mm
+8-Lead Plastic Micro Small Outline Package (MS) [MSOP] (see Microchip Packaging Specification 00000049BS.pdf)
+SSOP 0.65
+0
+8
+8
+Temperature_Sensors
+TCN75A_SOIC8
+
+Temperature Sensor
+0
+8
+8

@@ -9,4 +9,7 @@
   (lib (name "Goldpin")(type "KiCad")(uri "${KISYS3DMOD}/Goldpin/Discrete_Goldpin/Goldpin.pretty")(options "")(descr ""))
   (lib (name "Smd_Ptc_Fuses")(type "KiCad")(uri "${KISYS3DMOD}/Fuses/Smd_Ptc_Fuses/Smd_Ptc_Fuses.pretty")(options "")(descr ""))
   (lib (name "Resonators")(type "KiCad")(uri "${KISYS3DMOD}/Resonators/Resonators.pretty")(options "")(descr ""))
+  (lib (name "Temperature_Sensors")(type "KiCad")(uri "${KISYS3DMOD}/Temperature_Sensors/Temperature_Sensors.pretty")(options "")(descr ""))
+  (lib (name "Microswitches")(type "KiCad")(uri "${KISYS3DMOD}/Switches/Microswitches/Microswitches.pretty")(options "")(descr ""))
+  (lib (name "NTC_Thermistors")(type "KiCad")(uri "${KISYS3DMOD}/NTC_Thermistors/NTC_Thermistors.pretty")(options "")(descr ""))
 )

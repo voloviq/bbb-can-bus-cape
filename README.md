@@ -3,4 +3,4 @@ Simple Beaglebone Black CAN bus cape
 
 Board 3D view
 
-![PCB_3D](3D_View/interfaces.png)
+![PCB_3D](interfaces.png)

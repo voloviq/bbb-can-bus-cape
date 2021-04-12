@@ -12,4 +12,5 @@
   (lib (name "Temperature_Sensors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Temperature_Sensors/Temperature_Sensors.kicad_sym")(options "")(descr ""))
   (lib (name "Microswitches")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Switches/Microswitches/Microswitches.kicad_sym")(options "")(descr ""))
   (lib (name "NTC_Thermistors")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/NTC_Thermistors/NTC_Thermistors.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistors_Smd1206")(type "KiCad")(uri "${KICAD_SYMBOL_DIR}/Resistors/Smd_1206/Resistors_Smd1206.kicad_sym")(options "")(descr ""))
 )

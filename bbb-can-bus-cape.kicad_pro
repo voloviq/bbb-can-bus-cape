@@ -116,9 +116,11 @@
       },
       "track_widths": [
         0.0,
-        0.2,
-        0.4,
-        0.6
+        0.254,
+        0.381,
+        0.508,
+        1.016,
+        2.032
       ],
       "via_dimensions": [
         {
@@ -443,6 +445,10 @@
     [
       "99e884f1-6af0-42b0-8406-f20b17fb152e",
       "Standalone Can BUS"
+    ],
+    [
+      "ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf",
+      "RS485"
     ]
   ],
   "text_variables": {}

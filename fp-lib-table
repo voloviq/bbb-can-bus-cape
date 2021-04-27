@@ -14,4 +14,5 @@
   (lib (name "NTC_Thermistors")(type "KiCad")(uri "${KISYS3DMOD}/NTC_Thermistors/NTC_Thermistors.pretty")(options "")(descr ""))
   (lib (name "Resistor_Smd_1206")(type "KiCad")(uri "${KISYS3DMOD}/Resistors/Smd_1206/Resistor_Smd_1206.pretty")(options "")(descr ""))
   (lib (name "Symbols")(type "KiCad")(uri "${KISYS3DMOD}/Symbols/Symbols.pretty")(options "")(descr ""))
+  (lib (name "ESD_Protectors")(type "KiCad")(uri "${KISYS3DMOD}/ESD_Protectors/ESD_Protectors.pretty")(options "")(descr ""))
 )

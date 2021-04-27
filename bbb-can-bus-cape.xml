@@ -2,8 +2,8 @@
 <export version="E">
   <design>
     <source>/home/mw/hardware_projects/bbb-can-bus-cape/bbb-can-bus-cape.kicad_sch</source>
-    <date>Mon 12 Apr 2021 14:44:24 CEST</date>
-    <tool>Eeschema 5.99.0-unknown-d878cbddbc~125~ubuntu20.04.1</tool>
+    <date>Tue 27 Apr 2021 13:32:19 CEST</date>
+    <tool>Eeschema 5.99.0-unknown-7afc3f7df9~127~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Beaglebone Black CAN bus cape</title>
@@ -875,34 +875,36 @@
       <tstamps>38931853-a59f-47b4-89f6-05c48cf9b0f0</tstamps>
     </comp>
     <comp ref="D1">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
+      <value>PESD2CAN</value>
+      <footprint>ESD_Protectors:PESD2CAN.215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+      </fields>
+      <libsource lib="esd_protectors" part="PESD2CAN" description="TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double"/>
+      <property name="Manufacturer" value="NEXPERIA"/>
+      <property name="Manufacturer Part Number" value="PESD2CAN.215"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="PESD2CAN.215 "/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/"/>
+      <property name="Price@1pc" value="0,63791"/>
+      <property name="Price@1000pcs" value="0,41100"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C75176"/>
       <property name="Sheetname" value="CAN bus0"/>
       <property name="Sheetfile" value="can_bus.kicad_sch"/>
       <sheetpath names="/CAN bus0/" tstamps="/8469418f-40e4-443c-81c1-2bee2370abe2/"/>
-      <tstamps>00000000-0000-0000-0000-00005c866895</tstamps>
-    </comp>
-    <comp ref="D2">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN bus0"/>
-      <property name="Sheetfile" value="can_bus.kicad_sch"/>
-      <sheetpath names="/CAN bus0/" tstamps="/8469418f-40e4-443c-81c1-2bee2370abe2/"/>
-      <tstamps>00000000-0000-0000-0000-00005c8665fa</tstamps>
-    </comp>
-    <comp ref="D3">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN bus0"/>
-      <property name="Sheetfile" value="can_bus.kicad_sch"/>
-      <sheetpath names="/CAN bus0/" tstamps="/8469418f-40e4-443c-81c1-2bee2370abe2/"/>
-      <tstamps>00000000-0000-0000-0000-00005c867a93</tstamps>
+      <tstamps>56db1f82-f800-487b-81da-71d83290f045</tstamps>
     </comp>
     <comp ref="F1">
       <value>SN005-60</value>
@@ -1114,35 +1116,37 @@
       <sheetpath names="/CAN bus1/" tstamps="/55e5890b-4a4e-43d7-97c7-6276168b6880/"/>
       <tstamps>38931853-a59f-47b4-89f6-05c48cf9b0f0</tstamps>
     </comp>
-    <comp ref="D4">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
+    <comp ref="D2">
+      <value>PESD2CAN</value>
+      <footprint>ESD_Protectors:PESD2CAN.215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+      </fields>
+      <libsource lib="esd_protectors" part="PESD2CAN" description="TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double"/>
+      <property name="Manufacturer" value="NEXPERIA"/>
+      <property name="Manufacturer Part Number" value="PESD2CAN.215"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="PESD2CAN.215 "/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/"/>
+      <property name="Price@1pc" value="0,63791"/>
+      <property name="Price@1000pcs" value="0,41100"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C75176"/>
       <property name="Sheetname" value="CAN bus1"/>
       <property name="Sheetfile" value="can_bus.kicad_sch"/>
       <sheetpath names="/CAN bus1/" tstamps="/55e5890b-4a4e-43d7-97c7-6276168b6880/"/>
-      <tstamps>00000000-0000-0000-0000-00005c866895</tstamps>
-    </comp>
-    <comp ref="D5">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN bus1"/>
-      <property name="Sheetfile" value="can_bus.kicad_sch"/>
-      <sheetpath names="/CAN bus1/" tstamps="/55e5890b-4a4e-43d7-97c7-6276168b6880/"/>
-      <tstamps>00000000-0000-0000-0000-00005c8665fa</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="CAN bus1"/>
-      <property name="Sheetfile" value="can_bus.kicad_sch"/>
-      <sheetpath names="/CAN bus1/" tstamps="/55e5890b-4a4e-43d7-97c7-6276168b6880/"/>
-      <tstamps>00000000-0000-0000-0000-00005c867a93</tstamps>
+      <tstamps>56db1f82-f800-487b-81da-71d83290f045</tstamps>
     </comp>
     <comp ref="F3">
       <value>SN005-60</value>
@@ -1550,65 +1554,69 @@
       <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
       <tstamps>6797c0ce-d821-4c64-876b-e3a182d2ccbb</tstamps>
     </comp>
-    <comp ref="D7">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
+    <comp ref="D3">
+      <value>PESD2CAN</value>
+      <footprint>ESD_Protectors:PESD2CAN.215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+      </fields>
+      <libsource lib="esd_protectors" part="PESD2CAN" description="TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double"/>
+      <property name="Manufacturer" value="NEXPERIA"/>
+      <property name="Manufacturer Part Number" value="PESD2CAN.215"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="PESD2CAN.215 "/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/"/>
+      <property name="Price@1pc" value="0,63791"/>
+      <property name="Price@1000pcs" value="0,41100"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C75176"/>
       <property name="Sheetname" value="Standalone Can BUS"/>
       <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
       <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>fb7577c8-e733-4b17-b824-1bed18fb0048</tstamps>
+      <tstamps>1e367133-eab9-4307-8023-40effb680ef3</tstamps>
     </comp>
-    <comp ref="D8">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
+    <comp ref="D4">
+      <value>PESD2CAN</value>
+      <footprint>ESD_Protectors:PESD2CAN.215</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+      </fields>
+      <libsource lib="esd_protectors" part="PESD2CAN" description="TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double"/>
+      <property name="Manufacturer" value="NEXPERIA"/>
+      <property name="Manufacturer Part Number" value="PESD2CAN.215"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="PESD2CAN.215 "/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/"/>
+      <property name="Price@1pc" value="0,63791"/>
+      <property name="Price@1000pcs" value="0,41100"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C75176"/>
       <property name="Sheetname" value="Standalone Can BUS"/>
       <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
       <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>b0ca585d-0e5e-4b9e-aea3-647c2677f9e3</tstamps>
-    </comp>
-    <comp ref="D9">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="Standalone Can BUS"/>
-      <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
-      <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>4b0adc35-8513-4003-a310-9d9e48a19491</tstamps>
-    </comp>
-    <comp ref="D16">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="Standalone Can BUS"/>
-      <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
-      <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>49b684d4-7738-4aea-a90b-0229f74b2eb0</tstamps>
-    </comp>
-    <comp ref="D17">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="Standalone Can BUS"/>
-      <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
-      <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>b845c6cd-ec00-4a26-8ad5-bcc4b0b84b2c</tstamps>
-    </comp>
-    <comp ref="D18">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>D:/Git_Kicad_Library/Schematic/Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Sheetname" value="Standalone Can BUS"/>
-      <property name="Sheetfile" value="standalone_can_bus.kicad_sch"/>
-      <sheetpath names="/Standalone Can BUS/" tstamps="/99e884f1-6af0-42b0-8406-f20b17fb152e/"/>
-      <tstamps>e3b590b5-45b4-42b1-965c-965849d4b468</tstamps>
+      <tstamps>72f0535f-a78c-4a06-b05d-780dd97cbb89</tstamps>
     </comp>
     <comp ref="F5">
       <value>SN005-60</value>
@@ -2172,95 +2180,37 @@
       <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
       <tstamps>8f4a71ea-7a59-42e8-b096-07296273deee</tstamps>
     </comp>
-    <comp ref="D13">
-      <value>SMAJ7.5CA</value>
-      <footprint>Diodes:SMAJ7.5CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
+    <comp ref="D5">
+      <value>SM712.TCT</value>
+      <footprint>ESD_Protectors:SM712.TCT</footprint>
+      <datasheet>https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</datasheet>
       <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C12067</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="Manufacturer Part Number">SM712.TCT</field>
+        <field name="Package">SOT23-3</field>
+        <field name="Price@1000pcs">1,3444</field>
+        <field name="Price@1pc">3,0126</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SM712.TCT</field>
+        <field name="URL">https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/</field>
       </fields>
-      <libsource lib="Diodes" part="SMAJ7.5CA" description="7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ7.5CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ7.5CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D"/>
-      <property name="Price@1pc" value="1,70"/>
-      <property name="Price@1000pcs" value="0,59"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
+      <libsource lib="esd_protectors" part="SM712.TCT" description="Asymmetrical TVS Diode for Extended Common-Mode RS-485"/>
+      <property name="Manufacturer" value="SEMTECH"/>
+      <property name="Manufacturer Part Number" value="SM712.TCT"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SM712.TCT"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/"/>
+      <property name="Price@1pc" value="3,0126"/>
+      <property name="Price@1000pcs" value="1,3444"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="SOT23-3"/>
+      <property name="LCSC Part #(optional)" value="C12067"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="rs485.kicad_sch"/>
       <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>9692a771-7b38-4c52-8a5e-908e69c9474a</tstamps>
-    </comp>
-    <comp ref="D14">
-      <value>SMAJ18CA</value>
-      <footprint>Diodes:SMAJ18CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ18CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,43</field>
-        <field name="Price@1pc">1,59</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ18CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
-      </fields>
-      <libsource lib="Diodes" part="SMAJ18CA" description="18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ18CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ18CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D"/>
-      <property name="Price@1pc" value="1,59"/>
-      <property name="Price@1000pcs" value="0,43"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
-      <property name="Sheetname" value="RS485"/>
-      <property name="Sheetfile" value="rs485.kicad_sch"/>
-      <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>fb46809a-084a-4825-b20c-748cfdc85fb8</tstamps>
-    </comp>
-    <comp ref="D15">
-      <value>SMAJ7.5CA</value>
-      <footprint>Diodes:SMAJ7.5CA_SMD_DO214AC</footprint>
-      <datasheet>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</datasheet>
-      <fields>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Package">DO-214AC</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Variant">+basic,+full,+minipcie</field>
-      </fields>
-      <libsource lib="Diodes" part="SMAJ7.5CA" description="7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series"/>
-      <property name="Manufacturer" value="Littelfuse"/>
-      <property name="Manufacturer Part Number" value="SMAJ7.5CA"/>
-      <property name="Supplier" value="Mouser"/>
-      <property name="Supplier Part Number" value="576-SMAJ7.5CA"/>
-      <property name="URL" value="https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D"/>
-      <property name="Price@1pc" value="1,70"/>
-      <property name="Price@1000pcs" value="0,59"/>
-      <property name="Variant" value="+basic,+full,+minipcie"/>
-      <property name="Package" value="DO-214AC"/>
-      <property name="Sheetname" value="RS485"/>
-      <property name="Sheetfile" value="rs485.kicad_sch"/>
-      <sheetpath names="/RS485/" tstamps="/ff3a6e0b-2f2a-4058-aa78-87ebc39f8bcf/"/>
-      <tstamps>581d61c0-e19a-4b26-b7c1-8fafd0ba818c</tstamps>
+      <tstamps>73a58fb8-5076-4ac3-9293-aed2adae5ef2</tstamps>
     </comp>
     <comp ref="F7">
       <value>SN005-60</value>
@@ -2751,54 +2701,6 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Diodes" part="SMAJ18CA">
-      <description>18V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series</description>
-      <docs>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</docs>
-      <footprints>
-        <fp>SMAJ18CA_SMD_DO214AC</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SMAJ18CA</field>
-        <field name="Datasheet">Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</field>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ18CA</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ18CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ18CA?qs=2VFNtWizgidyVRPSWGEQ0w%3D%3D</field>
-        <field name="Price@1pc">1,59</field>
-        <field name="Price@1000pcs">0,43</field>
-        <field name="Package">DO-214AC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Diodes" part="SMAJ7.5CA">
-      <description>7.5V Two Directions Transient Voltage Suppression Diode, Surface Mount - 400W &gt; SMAJ series</description>
-      <docs>Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</docs>
-      <footprints>
-        <fp>SMAJ7.5CA_SMD_DO214AC</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">SMAJ7.5CA</field>
-        <field name="Datasheet">Diodes/Components_Documentation/Littelfuse_TVS-Diode_SMAJ.pdf</field>
-        <field name="Manufacturer">Littelfuse</field>
-        <field name="Manufacturer Part Number">SMAJ7.5CA</field>
-        <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">576-SMAJ7.5CA</field>
-        <field name="URL">https://pl.mouser.com/ProductDetail/Littelfuse/SMAJ75CA?qs=JJML70Qc14uqGQGE3bPdBw%3D%3D</field>
-        <field name="Price@1pc">1,70</field>
-        <field name="Price@1000pcs">0,59</field>
-        <field name="Package">DO-214AC</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Discrete_Connectors" part="DG301-5.0-03P-12-00A(H)">
       <description>3-Pin 5.0mm 22-14AWG Wire Range Screw Terminal</description>
       <docs>Connectors/Discrete_Connectors/Components_Documentation/DG301-5.0-03P-12-00A(H).pdf</docs>
@@ -3103,6 +3005,60 @@
         <pin num="8" name="VDD" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="esd_protectors" part="PESD2CAN">
+      <description>TVS diode for CAN Bus, 230W, 28V, 5A, bidirectional, common cathode, double</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</docs>
+      <footprints>
+        <fp>PESD2CAN.215</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PESD2CAN</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PESD2CAN.pdf</field>
+        <field name="Manufacturer">NEXPERIA</field>
+        <field name="Manufacturer Part Number">PESD2CAN.215</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">PESD2CAN.215 </field>
+        <field name="URL">https://www.tme.eu/pl/en/details/pesd2can.215/bidirectional-smd-transil-diodes/nexperia/</field>
+        <field name="Price@1pc">0,63791</field>
+        <field name="Price@1000pcs">0,41100</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SOT23-3</field>
+        <field name="LCSC Part #(optional)">C75176</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="bidirectional"/>
+        <pin num="2" name="I/O2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="esd_protectors" part="SM712.TCT">
+      <description>Asymmetrical TVS Diode for Extended Common-Mode RS-485</description>
+      <docs>https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</docs>
+      <footprints>
+        <fp>SM712.TCT</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SM712.TCT</field>
+        <field name="Datasheet">https://www.tme.eu/Document/5ddf860d9de4c5ef754fa789c5d0509e/SM712.pdf</field>
+        <field name="Manufacturer">SEMTECH</field>
+        <field name="Manufacturer Part Number">SM712.TCT</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SM712.TCT</field>
+        <field name="URL">https://www.tme.eu/pl/details/sm712.tct/diody-zabezpieczajace-drabinki/semtech/</field>
+        <field name="Price@1pc">3,0126</field>
+        <field name="Price@1000pcs">1,3444</field>
+        <field name="Developer">MW</field>
+        <field name="Package">SOT23-3</field>
+        <field name="LCSC Part #(optional)">C12067</field>
+      </fields>
+      <pins>
+        <pin num="1" name="I/O1" type="bidirectional"/>
+        <pin num="2" name="I/O2" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Capacitors_Smd0603">
@@ -3144,154 +3100,153 @@
     <library logical="Temperature_Sensors">
       <uri>/home/mw/kicad_library/Schematic//Temperature_Sensors/Temperature_Sensors.kicad_sym</uri>
     </library>
+    <library logical="esd_protectors">
+      <uri>/home/mw/kicad_library/Schematic//ESD_Protectors/esd_protectors.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/AIN1">
-      <node ref="P9" pin="40" pinfunction="Pin_40" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-    </net>
-    <net code="2" name="/AIN3">
-      <node ref="P9" pin="38" pinfunction="Pin_38" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-    </net>
-    <net code="3" name="/AIN5">
-      <node ref="P9" pin="36" pinfunction="Pin_36" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-    </net>
-    <net code="4" name="/AN0">
+    <net code="1" name="/AN0">
       <node ref="NTC1" pin="1" pintype="input"/>
       <node ref="P9" pin="39" pinfunction="Pin_39" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="5" name="/CAN bus0/CAN_H">
+    <net code="2" name="/CAN bus0/CAN_H">
       <node ref="F1" pin="2" pintype="input"/>
       <node ref="P1" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="/CAN bus0/CAN_L">
+    <net code="3" name="/CAN bus0/CAN_L">
       <node ref="F2" pin="2" pintype="input"/>
       <node ref="P1" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="/CAN bus1/CAN_H">
+    <net code="4" name="/CAN bus1/CAN_H">
       <node ref="F3" pin="2" pintype="input"/>
       <node ref="P2" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="/CAN bus1/CAN_L">
+    <net code="5" name="/CAN bus1/CAN_L">
       <node ref="F4" pin="2" pintype="input"/>
       <node ref="P2" pin="2" pintype="passive"/>
     </net>
-    <net code="9" name="/DCAN0_RX">
+    <net code="6" name="/DCAN0_RX">
       <node ref="P9" pin="19" pinfunction="Pin_19" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="RxD" pintype="output"/>
     </net>
-    <net code="10" name="/DCAN0_TX">
+    <net code="7" name="/DCAN0_TX">
       <node ref="P9" pin="20" pinfunction="Pin_20" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="TxD" pintype="input"/>
     </net>
-    <net code="11" name="/DCAN1_RX">
+    <net code="8" name="/DCAN1_RX">
       <node ref="P9" pin="24" pinfunction="Pin_24" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="TxD" pintype="input"/>
     </net>
-    <net code="12" name="/DCAN1_TX">
+    <net code="9" name="/DCAN1_TX">
       <node ref="P9" pin="26" pinfunction="Pin_26" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="RxD" pintype="output"/>
     </net>
-    <net code="13" name="/GPIO0_20">
-      <node ref="P9" pin="41" pinfunction="Pin_41" pintype="passive"/>
-      <node ref="U3" pin="13" pinfunction="~INT" pintype="output"/>
+    <net code="10" name="/GPIO0_2">
+      <node ref="P9" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="14" name="/GPIO1_17">
+    <net code="11" name="/GPIO0_3">
       <node ref="P9" pin="21" pinfunction="Pin_21" pintype="passive"/>
       <node ref="R30" pin="2" pintype="passive"/>
     </net>
-    <net code="15" name="/GPIO1_28">
+    <net code="12" name="/GPIO0_20">
+      <node ref="P9" pin="41" pinfunction="Pin_41" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="~INT" pintype="output"/>
+    </net>
+    <net code="13" name="/GPIO1_17">
+      <node ref="P9" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/GPIO1_28">
       <node ref="P9" pin="12" pinfunction="Pin_12" pintype="passive"/>
       <node ref="U7" pin="2" pinfunction="~RE" pintype="input"/>
       <node ref="U7" pin="3" pinfunction="DE" pintype="input"/>
     </net>
-    <net code="16" name="/GPIO3_21">
-      <node ref="P9" pin="23" pinfunction="Pin_23" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
+    <net code="15" name="/GPIO3_21">
+      <node ref="P9" pin="25" pinfunction="Pin_25" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
     </net>
-    <net code="17" name="/I2C1_SCL">
+    <net code="16" name="/I2C1_SCL">
       <node ref="P9" pin="17" pinfunction="Pin_17" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U5" pin="2" pinfunction="SCL" pintype="input"/>
     </net>
-    <net code="18" name="/I2C1_SDA">
+    <net code="17" name="/I2C1_SDA">
       <node ref="P9" pin="18" pinfunction="Pin_18" pintype="passive"/>
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U5" pin="1" pinfunction="SDA" pintype="bidirectional"/>
     </net>
-    <net code="19" name="/PWR_BUT">
+    <net code="18" name="/PWR_BUT">
       <node ref="P9" pin="9" pinfunction="Pin_9" pintype="passive"/>
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="Sw1" pin="1" pintype="input"/>
     </net>
-    <net code="20" name="/RS485/RS485_A">
+    <net code="19" name="/RS485/RS485_A">
       <node ref="F8" pin="2" pintype="input"/>
       <node ref="P12" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="/RS485/RS485_B">
+    <net code="20" name="/RS485/RS485_B">
       <node ref="F7" pin="2" pintype="input"/>
       <node ref="P12" pin="2" pintype="passive"/>
     </net>
-    <net code="22" name="/SPI1_CS0">
+    <net code="21" name="/SPI1_CS0">
       <node ref="P9" pin="28" pinfunction="Pin_28" pintype="passive"/>
       <node ref="U3" pin="18" pinfunction="~CS" pintype="input"/>
     </net>
-    <net code="23" name="/SPI1_CS1">
+    <net code="22" name="/SPI1_CS1">
       <node ref="P9" pin="42" pinfunction="Pin_42" pintype="passive"/>
       <node ref="U8" pin="13" pinfunction="~CS" pintype="input"/>
     </net>
-    <net code="24" name="/SPI1_MISO">
+    <net code="23" name="/SPI1_MISO">
       <node ref="P9" pin="29" pinfunction="Pin_29" pintype="passive"/>
       <node ref="R27" pin="1" pintype="passive"/>
       <node ref="U3" pin="17" pinfunction="SO" pintype="output"/>
     </net>
-    <net code="25" name="/SPI1_MOSI">
+    <net code="24" name="/SPI1_MOSI">
       <node ref="P9" pin="30" pinfunction="Pin_30" pintype="passive"/>
       <node ref="U3" pin="16" pinfunction="SI" pintype="input"/>
       <node ref="U8" pin="11" pinfunction="SI" pintype="input"/>
     </net>
-    <net code="26" name="/SPI1_SCK">
+    <net code="25" name="/SPI1_SCK">
       <node ref="P9" pin="31" pinfunction="Pin_31" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="SCK" pintype="input"/>
       <node ref="U8" pin="10" pinfunction="SCK" pintype="input"/>
     </net>
-    <net code="27" name="/SYS_RESETN">
+    <net code="26" name="/SYS_RESETN">
       <node ref="P9" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
       <node ref="Sw2" pin="1" pintype="input"/>
     </net>
-    <net code="28" name="/Standalone Can BUS/CAN_H0">
+    <net code="27" name="/Standalone Can BUS/CAN_H0">
       <node ref="F5" pin="2" pintype="input"/>
       <node ref="P7" pin="1" pintype="passive"/>
     </net>
-    <net code="29" name="/Standalone Can BUS/CAN_H1">
+    <net code="28" name="/Standalone Can BUS/CAN_H1">
       <node ref="F9" pin="2" pintype="input"/>
       <node ref="P15" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="/Standalone Can BUS/CAN_L0">
+    <net code="29" name="/Standalone Can BUS/CAN_L0">
       <node ref="F6" pin="2" pintype="input"/>
       <node ref="P7" pin="2" pintype="passive"/>
     </net>
-    <net code="31" name="/Standalone Can BUS/CAN_L1">
+    <net code="30" name="/Standalone Can BUS/CAN_L1">
       <node ref="F10" pin="2" pintype="input"/>
       <node ref="P15" pin="2" pintype="passive"/>
     </net>
-    <net code="32" name="/Standalone Can BUS/CAN_~INT1~">
+    <net code="31" name="/Standalone Can BUS/CAN_~INT1~">
       <node ref="P9" pin="27" pinfunction="Pin_27" pintype="passive"/>
       <node ref="U8" pin="4" pinfunction="~INT" pintype="output"/>
     </net>
-    <net code="33" name="/UART4_RX">
+    <net code="32" name="/UART4_RX">
       <node ref="P9" pin="11" pinfunction="Pin_11" pintype="passive"/>
       <node ref="U7" pin="1" pinfunction="RO" pintype="output"/>
     </net>
-    <net code="34" name="/UART4_TX">
+    <net code="33" name="/UART4_TX">
       <node ref="P9" pin="13" pinfunction="Pin_13" pintype="passive"/>
       <node ref="U7" pin="4" pinfunction="DI" pintype="input"/>
     </net>
-    <net code="35" name="3V3">
+    <net code="34" name="3V3">
       <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
@@ -3319,7 +3274,7 @@
       <node ref="U8" pin="14" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="5" pinfunction="VREF" pintype="power_in"/>
     </net>
-    <net code="36" name="5V">
+    <net code="35" name="5V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
@@ -3331,7 +3286,7 @@
       <node ref="U4" pin="3" pinfunction="VDD" pintype="power_in"/>
       <node ref="U9" pin="3" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="37" name="GND">
+    <net code="36" name="GND">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
@@ -3350,19 +3305,14 @@
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="C9" pin="2" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D15" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D18" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="D5" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="P1" pin="3" pintype="passive"/>
       <node ref="P12" pin="3" pintype="passive"/>
       <node ref="P15" pin="3" pintype="passive"/>
@@ -3398,154 +3348,148 @@
       <node ref="U8" pin="EP" pinfunction="EP" pintype="power_in"/>
       <node ref="U9" pin="2" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="38" name="GNDA">
+    <net code="37" name="GNDA">
       <node ref="P9" pin="34" pinfunction="Pin_34" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(C2-Pad1)">
+    <net code="38" name="Net-(C2-Pad1)">
       <node ref="C2" pin="1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(C4-Pad1)">
+    <net code="39" name="Net-(C4-Pad1)">
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(C6-Pad1)">
+    <net code="40" name="Net-(C6-Pad1)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U3" pin="8" pinfunction="OSC2" pintype="output"/>
       <node ref="X1" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="42" name="Net-(C7-Pad1)">
+    <net code="41" name="Net-(C7-Pad1)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="OSC1" pintype="input"/>
       <node ref="X1" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="43" name="Net-(C8-Pad1)">
+    <net code="42" name="Net-(C8-Pad1)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
       <node ref="U3" pin="19" pinfunction="~RST" pintype="input"/>
     </net>
-    <net code="44" name="Net-(C10-Pad1)">
+    <net code="43" name="Net-(C10-Pad1)">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(C15-Pad1)">
+    <net code="44" name="Net-(C15-Pad1)">
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="OSC2" pintype="output"/>
       <node ref="X2" pin="1" pinfunction="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(C16-Pad1)">
+    <net code="45" name="Net-(C16-Pad1)">
       <node ref="C16" pin="1" pintype="passive"/>
       <node ref="U8" pin="6" pinfunction="OSC1" pintype="input"/>
       <node ref="X2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(C18-Pad1)">
+    <net code="46" name="Net-(C18-Pad1)">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="R25" pin="2" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F1" pin="1" pintype="input"/>
-      <node ref="P3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
-    </net>
-    <net code="49" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="47" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F2" pin="1" pintype="input"/>
       <node ref="P4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="50" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F3" pin="1" pintype="input"/>
-      <node ref="P5" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U2" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    <net code="48" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F1" pin="1" pintype="input"/>
+      <node ref="P3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="51" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="49" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F4" pin="1" pintype="input"/>
       <node ref="P6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="52" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F5" pin="1" pintype="input"/>
-      <node ref="P10" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    <net code="50" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F3" pin="1" pintype="input"/>
+      <node ref="P5" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="53" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="51" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F6" pin="1" pintype="input"/>
       <node ref="P11" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="54" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
+    <net code="52" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F5" pin="1" pintype="input"/>
+      <node ref="P10" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="CANH" pintype="bidirectional"/>
     </net>
-    <net code="55" name="Net-(D11-Pad2)">
-      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-    </net>
-    <net code="56" name="Net-(D12-Pad2)">
-      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="R15" pin="2" pintype="passive"/>
-    </net>
-    <net code="57" name="Net-(D13-Pad2)">
-      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F7" pin="1" pintype="input"/>
-      <node ref="R20" pin="1" pintype="passive"/>
-    </net>
-    <net code="58" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D15" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F8" pin="1" pintype="input"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-    </net>
-    <net code="59" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D17" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="F9" pin="1" pintype="input"/>
-      <node ref="R25" pin="1" pintype="passive"/>
-      <node ref="U9" pin="7" pinfunction="CANH" pintype="bidirectional"/>
-    </net>
-    <net code="60" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D18" pin="1" pinfunction="A" pintype="passive"/>
+    <net code="53" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
       <node ref="F10" pin="1" pintype="input"/>
       <node ref="R26" pin="2" pintype="passive"/>
       <node ref="U9" pin="6" pinfunction="CANL" pintype="bidirectional"/>
     </net>
-    <net code="61" name="Net-(P3-Pad1)">
+    <net code="54" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F9" pin="1" pintype="input"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U9" pin="7" pinfunction="CANH" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="I/O1" pintype="bidirectional"/>
+      <node ref="F8" pin="1" pintype="input"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="I/O2" pintype="bidirectional"/>
+      <node ref="F7" pin="1" pintype="input"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(P3-Pad1)">
       <node ref="P3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(P4-Pad2)">
+    <net code="61" name="Net-(P4-Pad2)">
       <node ref="P4" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="63" name="Net-(P5-Pad1)">
+    <net code="62" name="Net-(P5-Pad1)">
       <node ref="P5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="64" name="Net-(P6-Pad2)">
+    <net code="63" name="Net-(P6-Pad2)">
       <node ref="P6" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(P9-Pad15)">
+    <net code="64" name="Net-(P9-Pad15)">
       <node ref="P9" pin="15" pinfunction="Pin_15" pintype="passive"/>
       <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U6" pin="1" pinfunction="DQ" pintype="bidirectional"/>
+    </net>
+    <net code="65" name="Net-(P9-Pad37)">
+      <node ref="P9" pin="37" pinfunction="Pin_37" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
     </net>
     <net code="66" name="Net-(P10-Pad1)">
       <node ref="P10" pin="1" pinfunction="1" pintype="passive"/>
@@ -3746,20 +3690,20 @@
     <net code="126" name="unconnected-(P9-Pad16)">
       <node ref="P9" pin="16" pinfunction="Pin_16" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(P9-Pad22)">
-      <node ref="P9" pin="22" pinfunction="Pin_22" pintype="passive+no_connect"/>
-    </net>
-    <net code="128" name="unconnected-(P9-Pad25)">
-      <node ref="P9" pin="25" pinfunction="Pin_25" pintype="passive+no_connect"/>
-    </net>
-    <net code="129" name="unconnected-(P9-Pad33)">
+    <net code="127" name="unconnected-(P9-Pad33)">
       <node ref="P9" pin="33" pinfunction="Pin_33" pintype="passive+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(P9-Pad35)">
-      <node ref="P9" pin="35" pinfunction="Pin_35" pintype="passive+no_connect"/>
+    <net code="128" name="unconnected-(P9-Pad35)">
+      <node ref="P9" pin="35" pinfunction="Pin_35" pintype="passive"/>
     </net>
-    <net code="131" name="unconnected-(P9-Pad37)">
-      <node ref="P9" pin="37" pinfunction="Pin_37" pintype="passive+no_connect"/>
+    <net code="129" name="unconnected-(P9-Pad36)">
+      <node ref="P9" pin="36" pinfunction="Pin_36" pintype="passive+no_connect"/>
+    </net>
+    <net code="130" name="unconnected-(P9-Pad38)">
+      <node ref="P9" pin="38" pinfunction="Pin_38" pintype="passive+no_connect"/>
+    </net>
+    <net code="131" name="unconnected-(P9-Pad40)">
+      <node ref="P9" pin="40" pinfunction="Pin_40" pintype="passive+no_connect"/>
     </net>
     <net code="132" name="unconnected-(U3-Pad3)">
       <node ref="U3" pin="3" pinfunction="CLKOUT" pintype="output+no_connect"/>
